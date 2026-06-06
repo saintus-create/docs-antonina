@@ -1,0 +1,121 @@
+---
+title: "Share, Export, and Use Rhetoric Entries in AI Tools"
+sidebarTitle: "Sharing & Export"
+description: "Copy any article as Markdown, open it in ChatGPT, Claude, Scira, or Cursor, share it with auto-generated OG images, and submit inline feedback."
+---
+
+Every encyclopedia entry comes with a small but powerful set of actions that make it easier to use the content outside the browser — whether you want to paste an article into a writing tool, start an AI conversation about a specific concept, share a link on social media, or flag something for the editorial team to improve.
+
+---
+
+## Copy as Markdown
+
+The **Copy Markdown** button on each article fetches the raw Markdown source of that page and writes it directly to your clipboard.
+
+<Steps>
+  <Step title="Locate the Button">
+    Find the **Copy Markdown** button in the page action bar near the top of any encyclopedia entry. It is labelled with a copy icon.
+  </Step>
+  <Step title="Click to Copy">
+    Click the button once. The encyclopedia fetches the raw `.mdx` source for that article and copies it to your clipboard. The icon briefly changes to a checkmark to confirm the copy succeeded.
+  </Step>
+  <Step title="Paste Anywhere">
+    Paste the Markdown into any editor, note-taking app, or AI prompt. The output is clean, unformatted Markdown — no HTML, no styling wrappers — so it works in Obsidian, Notion, VS Code, and similar tools.
+  </Step>
+</Steps>
+
+<Tip>
+  Pasting a full article into an AI chat window along with your own question gives the model authoritative encyclopaedia context, which often leads to more precise and better-cited responses than querying the model from memory alone.
+</Tip>
+
+---
+
+## Open In — Launch in Your Preferred AI Tool
+
+The **Open In** button reveals a popover listing four AI destinations where you can open the current article with a single click.
+
+<CardGroup cols={2}>
+  <Card title="ChatGPT" icon="comment">
+    Opens ChatGPT with a pre-filled prompt that includes the article's URL, so the model can fetch and discuss the specific entry.
+  </Card>
+  <Card title="Claude" icon="comment-dots">
+    Opens Anthropic's Claude with the same contextual prompt, ready for a scholarly conversation about the entry.
+  </Card>
+  <Card title="Scira" icon="magnifying-glass">
+    Launches the Scira AI search engine with the article URL as context, useful when you want web-search-augmented answers about a rhetorical concept.
+  </Card>
+  <Card title="Cursor" icon="code">
+    Opens Cursor's prompt interface pre-loaded with the article content — handy when you are drafting text in the editor and want rhetorical guidance inline.
+  </Card>
+</CardGroup>
+
+<Note>
+  All **Open In** links open in a new tab and pass the current page URL as context. Each destination generates its own prompt from that URL — your browsing data is not otherwise shared with third-party services.
+</Note>
+
+You can also select **View Markdown** from the same popover to open the raw `.mdx` source in a new browser tab, or **Open on GitHub** to view the source file in the repository.
+
+---
+
+## Page Feedback
+
+Each article ends with a **How is this guide?** feedback widget where you can rate the entry and leave a comment for the editorial team.
+
+<Steps>
+  <Step title="Rate the Entry">
+    Click 👍 **Good** or 👎 **Bad** at the bottom of any article. The feedback form expands automatically once you select a rating.
+  </Step>
+  <Step title="Write an Optional Comment">
+    Type your comment in the text area — describe what was helpful, what was missing, or what could be clearer. Press **Enter** (or **Shift+Enter** for a new line) to submit, or click the **Submit** button.
+  </Step>
+  <Step title="Receive Confirmation">
+    After submitting you will see a thank-you message and a link to the resulting GitHub issue where the editorial team tracks the feedback.
+  </Step>
+</Steps>
+
+<Note>
+  Your rating and comment are stored locally in your browser so the form does not ask you twice for the same article. If you want to submit additional feedback for the same page, click **Submit Again** in the confirmation panel.
+</Note>
+
+---
+
+## Text Feedback
+
+In addition to page-level ratings, you can give feedback on a specific passage within any article.
+
+<Steps>
+  <Step title="Select a Passage">
+    Highlight any sentence or phrase in an article body with your cursor. A small **Feedback** popover appears near the selected text.
+  </Step>
+  <Step title="Click Feedback">
+    Click the **Feedback** button in the popover. The tooltip expands into a comment form anchored to the highlighted text.
+  </Step>
+  <Step title="Describe the Issue">
+    Type your comment explaining what is wrong or unclear about the selected passage, then press **Enter** or click **Submit**.
+  </Step>
+  <Step title="Close the Popover">
+    Click **Close** to dismiss the form without submitting, or press **Esc** at any time.
+  </Step>
+</Steps>
+
+<Tip>
+  Text feedback is especially useful for flagging factual errors, outdated citations, or passages where the wording could be more precise. Including the specific sentence as context helps the editorial team locate and address the issue quickly.
+</Tip>
+
+---
+
+## Social Sharing via OpenGraph Images
+
+Every encyclopedia entry has an automatically generated OpenGraph image that appears when you share its URL on social media, in messaging apps, or in link-preview contexts.
+
+<AccordionGroup>
+  <Accordion title="What the image shows">
+    Each preview image is 1200 × 630 pixels (WebP format) and displays the entry title, its short description, and the encyclopedia's name. Images are generated at build time, so they load instantly when a link is unfurled.
+  </Accordion>
+  <Accordion title="How to share an entry">
+    Copy the URL of any article from your browser's address bar and paste it into your platform of choice — Twitter/X, LinkedIn, Slack, Discord, or any other service that renders link previews. The correct title, description, and image are picked up automatically from the page metadata.
+  </Accordion>
+  <Accordion title="Customisation per entry">
+    The image text is derived from each article's `title` and `description` frontmatter fields, so every entry has a unique preview that accurately represents its content rather than a generic encyclopedia-wide thumbnail.
+  </Accordion>
+</AccordionGroup>

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "willow",
+  "name": "Encyclopedia of Rhetoric",
+  "colors": {
+    "primary": "#8B1A1A",
+    "light": "#C0392B",
+    "dark": "#5C0A0A"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Encyclopedia",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "how-to-use",
+              "about"
+            ]
+          },
+          {
+            "group": "Browse Entries",
+            "pages": [
+              "browse/overview",
+              "browse/alphabetical",
+              "browse/rhetorical-figures",
+              "browse/historical-periods",
+              "browse/key-theorists"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/search",
+              "features/ai-assistant",
+              "features/knowledge-graph",
+              "features/sharing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Entry Types",
+            "pages": [
+              "reference/entry-types",
+              "reference/bibliography",
+              "reference/cross-references"
+            ]
+          },
+          {
+            "group": "API & Integration",
+            "pages": [
+              "reference/llm-endpoints",
+              "reference/search-api",
+              "reference/ai-chat-api"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Browse Entries",
+      "href": "/browse/overview"
+    }
+  },
+  "footer": {
+    "socials": {}
+  }
+}

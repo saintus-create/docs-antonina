@@ -1,0 +1,88 @@
+{
+  "projectType": "general",
+  "projectName": "Encyclopedia of Rhetoric",
+  "projectDescription": "A digital reference encyclopedia covering 274 entries on rhetoric, rhetorical figures, historical movements, and key theorists from ancient times to the information age — searchable, AI-assisted, and browsable by topic.",
+  "theme": "willow",
+  "primaryColor": "#8B1A1A",
+  "lightColor": "#C0392B",
+  "darkColor": "#5C0A0A",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Encyclopedia",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "how-to-use",
+              "about"
+            ]
+          },
+          {
+            "group": "Browse Entries",
+            "pages": [
+              "browse/overview",
+              "browse/alphabetical",
+              "browse/rhetorical-figures",
+              "browse/historical-periods",
+              "browse/key-theorists"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/search",
+              "features/ai-assistant",
+              "features/knowledge-graph",
+              "features/sharing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Entry Types",
+            "pages": [
+              "reference/entry-types",
+              "reference/bibliography",
+              "reference/cross-references"
+            ]
+          },
+          {
+            "group": "API & Integration",
+            "pages": [
+              "reference/llm-endpoints",
+              "reference/search-api",
+              "reference/ai-chat-api"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "274 encyclopedia entries covering rhetoric from ancient Greece to the digital age",
+    "Full-text search powered by Orama search engine",
+    "AI chat assistant grounded in encyclopedia content (Claude 3.5 Sonnet)",
+    "Interactive knowledge graph visualizing cross-references between entries",
+    "Alphabetical browsing with sidebar navigation",
+    "LLM-friendly endpoints (/llms.txt, /llms-full.txt) for AI tool integration",
+    "Per-page and per-block user feedback system",
+    "Copy as Markdown and Open in AI Tools actions",
+    "Auto-generated OpenGraph social images per entry",
+    "Cross-reference links (See Also) and collapsible bibliographies"
+  ],
+  "publicApiSurface": [
+    "GET /api/search — Orama full-text search index",
+    "POST /api/chat — AI chat endpoint (streams responses from Claude 3.5 Sonnet)",
+    "GET /llms.txt — LLM-friendly index of all documentation pages",
+    "GET /llms-full.txt — Full concatenated markdown of all encyclopedia articles",
+    "GET /llms.mdx/docs/[slug]/content.md — Raw markdown of a single article",
+    "GET /og/docs/[slug]/image.webp — OpenGraph social preview image per article",
+    "GET /docs/[slug] — Individual encyclopedia article page",
+    "GET /docs — Full encyclopedia browser with sidebar"
+  ]
+}
