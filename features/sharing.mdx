@@ -2,6 +2,7 @@
 title: "Share, Export, and Use Rhetoric Entries in AI Tools"
 sidebarTitle: "Sharing & Export"
 description: "Copy any article as Markdown, open it in ChatGPT, Claude, Scira, or Cursor, share it with auto-generated OG images, and submit inline feedback."
+icon: "share-nodes"
 ---
 
 Every encyclopedia entry comes with a small but powerful set of actions that make it easier to use the content outside the browser — whether you want to paste an article into a writing tool, start an AI conversation about a specific concept, share a link on social media, or flag something for the editorial team to improve.
@@ -38,12 +39,15 @@ The **Open In** button reveals a popover listing four AI destinations where you 
   <Card title="ChatGPT" icon="comment">
     Opens ChatGPT with a pre-filled prompt that includes the article's URL, so the model can fetch and discuss the specific entry.
   </Card>
+
   <Card title="Claude" icon="comment-dots">
     Opens Anthropic's Claude with the same contextual prompt, ready for a scholarly conversation about the entry.
   </Card>
+
   <Card title="Scira" icon="magnifying-glass">
     Launches the Scira AI search engine with the article URL as context, useful when you want web-search-augmented answers about a rhetorical concept.
   </Card>
+
   <Card title="Cursor" icon="code">
     Opens Cursor's prompt interface pre-loaded with the article content — handy when you are drafting text in the editor and want rhetorical guidance inline.
   </Card>
@@ -66,7 +70,7 @@ Each article ends with a **How is this guide?** feedback widget where you can ra
     Click 👍 **Good** or 👎 **Bad** at the bottom of any article. The feedback form expands automatically once you select a rating.
   </Step>
   <Step title="Write an Optional Comment">
-    Type your comment in the text area — describe what was helpful, what was missing, or what could be clearer. Press **Enter** (or **Shift+Enter** for a new line) to submit, or click the **Submit** button.
+    Type your comment in the text area — describe what was helpful, what was missing, or what could be clearer. Press **Enter** (or **Shift\+Enter** for a new line) to submit, or click the **Submit** button.
   </Step>
   <Step title="Receive Confirmation">
     After submitting you will see a thank-you message and a link to the resulting GitHub issue where the editorial team tracks the feedback.
@@ -112,9 +116,11 @@ Every encyclopedia entry has an automatically generated OpenGraph image that app
   <Accordion title="What the image shows">
     Each preview image is 1200 × 630 pixels (WebP format) and displays the entry title, its short description, and the encyclopedia's name. Images are generated at build time, so they load instantly when a link is unfurled.
   </Accordion>
+
   <Accordion title="How to share an entry">
     Copy the URL of any article from your browser's address bar and paste it into your platform of choice — Twitter/X, LinkedIn, Slack, Discord, or any other service that renders link previews. The correct title, description, and image are picked up automatically from the page metadata.
   </Accordion>
+
   <Accordion title="Customisation per entry">
     The image text is derived from each article's `title` and `description` frontmatter fields, so every entry has a unique preview that accurately represents its content rather than a generic encyclopedia-wide thumbnail.
   </Accordion>

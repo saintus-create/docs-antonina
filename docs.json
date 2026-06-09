@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "sequoia",
   "name": "Encyclopedia of Rhetoric",
   "colors": {
-    "primary": "#8B1A1A",
-    "light": "#C0392B",
-    "dark": "#5C0A0A"
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#FFFFFF"
   },
   "navigation": {
     "tabs": [
@@ -13,7 +13,76 @@
         "tab": "Encyclopedia",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "L",
+            "pages": [
+              "reference/lauer-janice-m-b-1931.mdx"
+            ]
+          },
+          {
+            "group": "N",
+            "pages": []
+          },
+          {
+            "group": "O",
+            "pages": []
+          },
+          {
+            "group": "U",
+            "pages": []
+          },
+          {
+            "group": "P",
+            "pages": []
+          },
+          {
+            "group": "Q",
+            "pages": []
+          },
+          {
+            "group": "R",
+            "pages": []
+          },
+          {
+            "group": "S",
+            "pages": []
+          },
+          {
+            "group": "T",
+            "pages": []
+          },
+          {
+            "group": "V",
+            "pages": []
+          },
+          {
+            "group": "W",
+            "pages": []
+          },
+          {
+            "group": "Y",
+            "pages": []
+          },
+          {
+            "group": "M",
+            "pages": []
+          },
+          {
+            "group": "Browse",
+            "pages": [
+              "browse/overview",
+              "browse/alphabetical",
+              "browse/rhetorical-figures",
+              "browse/historical-periods",
+              "browse/key-theorists"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "About",
+        "groups": [
+          {
+            "group": "About this Encyclopedia",
             "pages": [
               "introduction",
               "how-to-use",
@@ -21,13 +90,11 @@
             ]
           },
           {
-            "group": "Browse Entries",
+            "group": "Using Entries",
             "pages": [
-              "browse/overview",
-              "browse/alphabetical",
-              "browse/rhetorical-figures",
-              "browse/historical-periods",
-              "browse/key-theorists"
+              "reference/entry-types",
+              "reference/bibliography",
+              "reference/cross-references"
             ]
           },
           {
@@ -38,22 +105,9 @@
               "features/knowledge-graph",
               "features/sharing"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Reference",
-        "groups": [
-          {
-            "group": "Entry Types",
-            "pages": [
-              "reference/entry-types",
-              "reference/bibliography",
-              "reference/cross-references"
-            ]
           },
           {
-            "group": "API & Integration",
+            "group": "API",
             "pages": [
               "reference/llm-endpoints",
               "reference/search-api",
@@ -73,5 +127,8 @@
   },
   "footer": {
     "socials": {}
+  },
+  "styling": {
+    "eyebrows": "section"
   }
 }
