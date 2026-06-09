@@ -3,9 +3,9 @@
   "theme": "aspen",
   "name": "Encyclopedia of Rhetoric and Composition",
   "colors": {
-    "primary": "#000000",
-    "light": "#000000",
-    "dark": "#FFFFFF"
+    "primary": "#E5E7EB",
+    "light": "#F3F4F6",
+    "dark": "#D1D5DB"
   },
   "navigation": {
     "tabs": [
@@ -477,8 +477,8 @@
   },
   "background": {
     "color": {
-      "light": "#FFFFFF",
-      "dark": "#000000"
+      "light": "#1A1A1A",
+      "dark": "#0F0F0F"
     }
   },
   "fonts": {
