@@ -3,8 +3,8 @@
   "theme": "sequoia",
   "name": "Encyclopedia of Rhetoric",
   "colors": {
-    "primary": "#000000",
-    "light": "#000000",
+    "primary": "#1f1f1f",
+    "light": "#db1a1a",
     "dark": "#FFFFFF"
   },
   "navigation": {
@@ -130,5 +130,26 @@
   },
   "styling": {
     "eyebrows": "section"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "family": "Geist"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "markdown": {
+    "schema": true
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
