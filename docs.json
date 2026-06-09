@@ -3,9 +3,9 @@
   "theme": "aspen",
   "name": "Encyclopedia of Rhetoric and Composition",
   "colors": {
-    "primary": "#E5E7EB",
-    "light": "#F3F4F6",
-    "dark": "#D1D5DB"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
   "navigation": {
     "tabs": [
@@ -15,7 +15,6 @@
           {
             "group": "A",
             "pages": [
-              "about",
               "accumulatio",
               "actio",
               "advertising-rhetoric-of",
@@ -401,65 +400,12 @@
             "pages": [
               "young-richard"
             ]
-          },
-          {
-            "group": "Browse",
-            "pages": [
-              "browse/overview",
-              "browse/alphabetical",
-              "browse/rhetorical-figures",
-              "browse/historical-periods",
-              "browse/key-theorists"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "About",
-        "groups": [
-          {
-            "group": "About this Encyclopedia",
-            "pages": [
-              "introduction",
-              "how-to-use",
-              "about"
-            ]
-          },
-          {
-            "group": "Using Entries",
-            "pages": [
-              "reference/entry-types",
-              "reference/bibliography",
-              "reference/cross-references"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "features/search",
-              "features/ai-assistant",
-              "features/knowledge-graph",
-              "features/sharing"
-            ]
-          },
-          {
-            "group": "API",
-            "pages": [
-              "reference/llm-endpoints",
-              "reference/search-api",
-              "reference/ai-chat-api"
-            ]
           }
         ]
       }
     ]
   },
   "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Browse Entries",
-      "href": "/browse/overview"
-    },
     "links": []
   },
   "footer": {
