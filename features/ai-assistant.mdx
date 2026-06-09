@@ -1,11 +1,11 @@
 ---
-title: "Ask the AI Assistant Anything About Rhetoric Entries"
+title: "AI Assistant"
 sidebarTitle: "AI Assistant"
-description: "Chat with an AI assistant powered by Claude 3.5 Sonnet that searches the encyclopedia to ground every answer in authoritative entries."
+description: "Chat with an AI assistant that searches the encyclopedia to ground answers in entries."
 icon: "sparkles"
 ---
 
-Every page in the Encyclopedia of Rhetoric includes a built-in AI chat assistant you can use to ask questions in plain language. Rather than guessing which entry to read, you can describe what you want to understand and the assistant will search the encyclopedia, synthesise an answer from the relevant articles, and cite the specific entries it drew from — so you can always verify the source.
+Every page in the Encyclopedia of Rhetoric includes a built-in AI chat assistant you can use to ask questions in plain language. The assistant searches the encyclopedia, synthesizes an answer from relevant articles, and cites the specific entries it drew from — so you can always verify the source.
 
 ## Opening the AI Assistant
 
@@ -72,17 +72,17 @@ Every page in the Encyclopedia of Rhetoric includes a built-in AI chat assistant
 ## How the AI Grounds Its Answers
 
 <Note>
-  The assistant is powered by **Claude 3.5 Sonnet** via OpenRouter. Before composing a response it automatically runs a search against the full encyclopedia index to retrieve the most relevant entries. This grounding step means answers are anchored in the encyclopedia's scholarly content rather than the model's general training data.
+  Before composing a response, the assistant automatically runs a search against the encyclopedia index to retrieve the most relevant entries. This grounding step means answers are anchored in the encyclopedia's scholarly content.
 </Note>
 
 The system works like this:
 
 1. You send a question.
-2. The assistant calls an internal `search` tool that queries the encyclopedia's Orama index across entry titles, descriptions, and article bodies.
-3. The search returns up to ten enriched results.
+2. The assistant calls an internal `search` tool that queries the encyclopedia's index across entry titles, descriptions, and article bodies.
+3. The search returns up to ten results.
 4. The assistant reads those results and writes a response, citing entries as Markdown links using each article's URL.
 5. You see both the answer and a small badge showing how many search results were consulted.
 
 <Note>
-  If the assistant cannot find a relevant answer in the encyclopedia, it will say so explicitly and suggest a more targeted search query to try — it will not fabricate an answer. AI responses can occasionally be imprecise; always follow the cited links to read the primary source.
+  If the assistant cannot find a relevant answer in the encyclopedia, it will say so explicitly and suggest a more targeted search query. AI responses can occasionally be imprecise; always follow the cited links to read the primary source.
 </Note>
