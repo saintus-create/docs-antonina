@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "luma",
   "name": "Encyclopedia of Rhetoric and Composition",
   "colors": {
     "primary": "#E5E7EB",
@@ -473,13 +473,14 @@
     "library": "lucide"
   },
   "appearance": {
-    "default": "light"
+    "default": "system"
   },
   "background": {
     "color": {
       "light": "#1A1A1A",
       "dark": "#0F0F0F"
-    }
+    },
+    "decoration": "gradient"
   },
   "fonts": {
     "family": "Inter"
