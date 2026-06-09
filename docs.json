@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "sequoia",
-  "name": "Encyclopedia of Rhetoric",
+  "theme": "luma",
+  "name": "Encyclopedia of Rhetoric and Composition",
   "colors": {
     "primary": "#1f1f1f",
-    "light": "#db1a1a",
-    "dark": "#FFFFFF"
+    "light": "#ffffff",
+    "dark": "#1a1a1a"
   },
   "navigation": {
     "tabs": [
@@ -465,7 +465,7 @@
     "socials": {}
   },
   "styling": {
-    "eyebrows": "section"
+    "eyebrows": "breadcrumbs"
   },
   "icons": {
     "library": "lucide"
@@ -474,10 +474,10 @@
     "default": "light"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "grid"
   },
   "fonts": {
-    "family": "Geist"
+    "family": "Roboto"
   },
   "metadata": {
     "timestamp": true
@@ -487,5 +487,6 @@
   },
   "interaction": {
     "drilldown": true
-  }
+  },
+  "description": "Encyclopedia of Rhetoric and Composition"
 }
