@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "luma",
   "name": "Encyclopedia of Rhetoric and Composition",
   "colors": {
     "primary": "#2563EB",
@@ -252,7 +252,8 @@
               "oratory-religious-rhetoric",
               "oratory-religious-rhetoric-sermon",
               "operant-conditioning",
-              "operant-versus-pavlovian-conditioning"
+              "operant-versus-pavlovian-conditioning",
+              "reynolds-primer-operant-conditioning"
             ]
           },
           {
@@ -419,13 +420,14 @@
     "library": "lucide"
   },
   "appearance": {
-    "default": "light"
+    "default": "system"
   },
   "background": {
     "color": {
       "light": "#1A1A1A",
       "dark": "#0F0F0F"
-    }
+    },
+    "decoration": "gradient"
   },
   "fonts": {
     "family": "Inter"
